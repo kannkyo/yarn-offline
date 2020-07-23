@@ -11,5 +11,28 @@
     "online:clean": "rm -rf offline-cache/*.tgz node_modules/ && yarn cache clean",
     "offline:install": "yarn install --offline",
     "offline:clean": "rm -rf node_modules/ && yarn cache clean"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "csv2json": "^2.0.2",
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "express-generator": "^4.16.1",
+    "generator-code": "^1.2.19",
+    "generator-license": "^5.4.0",
+    "generator-office": "^1.7.1",
+    "grunt": "^1.2.1",
+    "gulp": "^4.0.2",
+    "nodemon": "^2.0.4",
+    "standard": "^14.3.4",
+    "typescript": "^3.9.7",
+    "vsc": "^0.1.10",
+    "webpack": "^4.43.0",
+    "yarn": "^1.22.4",
+    "yo": "^3.1.1"
+  },
+  "dependencies": {
+    "electron": "^9.1.1",
+    "express": "^4.17.1"
   }
 }
