@@ -1,0 +1,15 @@
+{
+  "name": "yarn-offline",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/kannkyo/yarn-offline.git",
+  "author": "kannkyo <15080890+kannkyo@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "online:download": "yarn install",
+    "online:upgrade": "yarn upgrade",
+    "online:clean": "rm -rf offline-cache/*.tgz node_modules/ && yarn cache clean",
+    "offline:install": "yarn install --offline",
+    "offline:clean": "rm -rf node_modules/ && yarn cache clean"
+  }
+}
